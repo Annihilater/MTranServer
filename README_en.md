@@ -257,7 +257,7 @@ docker compose up -d
 | Health Check            | `/health`          | None                                                                      | `{"status": "ok"}`                              | None                      |
 | Heartbeat Check         | `/__heartbeat__`   | None                                                                      | `Ready`                                         | None                      |
 | Load Balancer Heartbeat | `/__lbheartbeat__` | None                                                                      | `Ready`                                         | None                      |
-
+| Google Translate Compatible Interface 1 | `/language/translate/v2` | `{"q": "The Great Pyramid of Giza", "source": "en", "target": "zh", "format": "text"}` | `{"data": {"translations": [{"translatedText": "吉萨大金字塔"}]}}` | Authorization: your_token |
 > Developer advanced settings please refer to [CONFIG.md](./CONFIG.md)
 
 ## Source Code Repository

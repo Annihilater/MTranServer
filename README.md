@@ -268,7 +268,7 @@ docker compose up -d
 | 健康检查           | `/health`                | 无                                                                                     | `{"status": "ok"}`                              | 无                        |
 | 心跳检查           | `/__heartbeat__`         | 无                                                                                     | `Ready`                                         | 无                        |
 | 负载均衡心跳检查   | `/__lbheartbeat__`       | 无                                                                                     | `Ready`                                         | 无                        |
-| 谷歌翻译兼容接口 1 | `/language/translate/v2` | `{"q": "The Great Pyramid of Giza", "source": "en", "target": "zh", "format": "text"}` | `{"translatedText": "吉萨大金字塔"}`            | Authorization: your_token |
+| 谷歌翻译兼容接口 1 | `/language/translate/v2` | `{"q": "The Great Pyramid of Giza", "source": "en", "target": "zh", "format": "text"}` | `{"data": {"translations": [{"translatedText": "吉萨大金字塔"}]}}` | Authorization: your_token |
 
 > 开发者高级设置请参考 [CONFIG.md](./CONFIG.md)
 
