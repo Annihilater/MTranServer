@@ -41,7 +41,7 @@ For high-quality translation, consider using online large language model APIs.
 - Fixed memory overflow issue, now running a single English-Chinese model requires only 800M+ memory, and other language model memory usage has also been significantly reduced
 - Added interfaces for multiple plugins
 
-  2025.03.07 v1.0.3 -> v1.0.4
+2025.03.07 v1.0.3 -> v1.0.4
 
 - Added Persian and Polish models
 
