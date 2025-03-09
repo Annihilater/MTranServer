@@ -1,4 +1,4 @@
-VERSION=1.1.0
+VERSION=1.1.1
 
 export:
 	docker save -o mtranserver.image.tar xxnuo/mtranserver:latest
