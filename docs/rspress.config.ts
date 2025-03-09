@@ -17,6 +17,11 @@ export default defineConfig({
         mode: "link",
         content: "https://github.com/xxnuo/MTranServer",
       },
+      {
+        icon: "x",
+        mode: "link",
+        content: "https://x.com/realxxnuo",
+      },
     ],
     locales: [
       {
