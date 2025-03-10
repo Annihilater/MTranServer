@@ -2,10 +2,6 @@
 
 > 迷你翻译服务器 测试版 ⭐️ 给我个 Star 吧
 
-<img src="./images/icon.png" width="auto" height="128" align="right">
-
-[English](README_en.md) | 中文
-
 一个超低资源消耗超快的离线翻译服务器，英译中模型仅需 860MB 内存即可运行，无需显卡。单个请求平均响应时间 50ms。支持全世界主要语言的翻译。
 
 翻译质量与 Google 翻译相当。
@@ -18,7 +14,7 @@
 
 > 暂无，看预览图
 
-<img src="./images/preview.png" width="auto" height="460">
+![Preview](./images/preview.png)
 
 ## 同类项目效果(CPU,英译中)
 
@@ -42,7 +38,7 @@
 - 修复了内存溢出问题, 现在运行一个英译中模型仅需 800M+ 内存, 其他语言模型的内存占用也大幅降低
 - 适配添加了多种插件的接口
 
-2025.03.07 v1.0.3 -> v1.0.4
+  2025.03.07 v1.0.3 -> v1.0.4
 
 - 添加波斯语、波兰语模型
 
@@ -259,15 +255,15 @@ docker compose up -d
 
 > Base URL: `http://localhost:8989`
 
-| 名称               | URL                      | 请求格式                                                                               | 返回格式                                        | 认证头                    |
-| ------------------ | ------------------------ | -------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------- |
-| 服务版本           | `/version`               | 无                                                                                     | `{"version": "v1.1.0"}`                         | 无                        |
-| 语言对列表         | `/models`                | 无                                                                                     | `{"models":["zhen","enzh"]}`                    | Authorization: your_token |
-| 普通翻译接口       | `/translate`             | `{"from": "en", "to": "zh", "text": "Hello, world!"}`                                  | `{"result": "你好，世界！"}`                    | Authorization: your_token |
-| 批量翻译接口       | `/translate/batch`       | `{"from": "en", "to": "zh", "texts": ["Hello, world!", "Hello, world!"]}`              | `{"results": ["你好，世界！", "你好，世界！"]}` | Authorization: your_token |
-| 健康检查           | `/health`                | 无                                                                                     | `{"status": "ok"}`                              | 无                        |
-| 心跳检查           | `/__heartbeat__`         | 无                                                                                     | `Ready`                                         | 无                        |
-| 负载均衡心跳检查   | `/__lbheartbeat__`       | 无                                                                                     | `Ready`                                         | 无                        |
+| 名称               | URL                      | 请求格式                                                                               | 返回格式                                                           | 认证头                    |
+| ------------------ | ------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------- |
+| 服务版本           | `/version`               | 无                                                                                     | `{"version": "v1.1.0"}`                                            | 无                        |
+| 语言对列表         | `/models`                | 无                                                                                     | `{"models":["zhen","enzh"]}`                                       | Authorization: your_token |
+| 普通翻译接口       | `/translate`             | `{"from": "en", "to": "zh", "text": "Hello, world!"}`                                  | `{"result": "你好，世界！"}`                                       | Authorization: your_token |
+| 批量翻译接口       | `/translate/batch`       | `{"from": "en", "to": "zh", "texts": ["Hello, world!", "Hello, world!"]}`              | `{"results": ["你好，世界！", "你好，世界！"]}`                    | Authorization: your_token |
+| 健康检查           | `/health`                | 无                                                                                     | `{"status": "ok"}`                                                 | 无                        |
+| 心跳检查           | `/__heartbeat__`         | 无                                                                                     | `Ready`                                                            | 无                        |
+| 负载均衡心跳检查   | `/__lbheartbeat__`       | 无                                                                                     | `Ready`                                                            | 无                        |
 | 谷歌翻译兼容接口 1 | `/language/translate/v2` | `{"q": "The Great Pyramid of Giza", "source": "en", "target": "zh", "format": "text"}` | `{"data": {"translations": [{"translatedText": "吉萨大金字塔"}]}}` | Authorization: your_token |
 
 > 开发者高级设置请参考 [CONFIG.md](./CONFIG.md)
@@ -290,7 +286,7 @@ Windows、Mac 和 Linux 独立客户端软件: [MTranServerDesktop](https://gith
 
 [Buy me a coffee ☕️](https://www.creem.io/payment/prod_3QOnrHlGyrtTaKHsOw9Vs1)
 
-[中国大陆 💗 赞赏](./DONATE.md)
+[中国大陆 💗 赞赏](./支持我)
 
 ## 联系我
 
@@ -300,7 +296,7 @@ X: [@realxxnuo](https://x.com/realxxnuo)
 
 欢迎加我交流技术/开源相关项目/私有化部署～
 
-找工作中。可以联系我查看我的简历。
+找工作中：[关于我](/about)
 
 ## Star History
 
