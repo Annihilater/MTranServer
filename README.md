@@ -305,5 +305,3 @@ X: [@realxxnuo](https://x.com/realxxnuo)
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=xxnuo/MTranServer&type=Timeline)](https://star-history.com/#xxnuo/MTranServer&Timeline)
-
-<img src="https://github.com/user-attachments/assets/1000654e-ae84-4e0c-a669-79b5b79bdab6" width="128" height="auto" align="right">
