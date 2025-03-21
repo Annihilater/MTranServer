@@ -262,9 +262,9 @@ docker compose up -d
 
 ## Source Code Repository
 
-Windows, Mac, and Linux standalone client software version: [MTranServerDesktop](https://github.com/xxnuo/MTranServerDesktop) (not public, please be patient for official release)
+Windows, Mac, and Linux standalone client software version: [MTranServerDesktop](https://github.com/xxnuo/MTranServerDesktop)
 
-Server API source code repository: [MTranServerCore](https://github.com/xxnuo/MTranServerCore) (not public, please be patient for official release)
+Server API source code repository: [MTranServerCore](https://github.com/xxnuo/MTranServerCore)
 
 ## Thanks
 
